@@ -1,0 +1,22 @@
+2018-03-30T18:38:49+00:00 CRITICAL Allowed memory size of 100663296 bytes exhausted (tried to allocate 28672 bytes)
+
+2018-03-30T18:39:35+00:00 CRITICAL Allowed memory size of 100663296 bytes exhausted (tried to allocate 24576 bytes)
+
+2018-03-30T18:41:28+00:00 CRITICAL Allowed memory size of 100663296 bytes exhausted (tried to allocate 24576 bytes)
+
+2018-03-30T18:44:27+00:00 CRITICAL Allowed memory size of 100663296 bytes exhausted (tried to allocate 24576 bytes)
+
+2018-03-30T18:45:47+00:00 CRITICAL Allowed memory size of 100663296 bytes exhausted (tried to allocate 24576 bytes)
+
+2018-03-30T20:40:25+00:00 CRITICAL Allowed memory size of 100663296 bytes exhausted (tried to allocate 24576 bytes)
+
+2018-04-15T18:33:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_plugins() in /kunder/mguq_2332/plugin_3817/public/wp-content/plugins/servebolt-optimizer/admin/security/wpvuldb.php:65
+Stack trace:
+#0 /kunder/mguq_2332/plugin_3817/public/wp-content/plugins/servebolt-optimizer/admin/security/wpvuldb.php(157): servebolt_vuln_plugins()
+#1 /kunder/mguq_2332/plugin_3817/public/wp-includes/class-wp-hook.php(286): servebolt_security_emails()
+#2 /kunder/mguq_2332/plugin_3817/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /kunder/mguq_2332/plugin_3817/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /kunder/mguq_2332/plugin_3817/public/wp-cron.php(126): do_action_ref_array('servebolt_sec_e...', Array)
+#5 {main}
+  thrown
+
